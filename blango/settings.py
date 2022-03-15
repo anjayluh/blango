@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'blango_auth',
 ]
 
 MIDDLEWARE = [
@@ -160,3 +161,5 @@ LOGGING = {
         "level": "DEBUG",
     },
 }
+
+AUTH_USER_MODEL = "blango_auth.User"
